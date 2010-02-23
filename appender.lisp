@@ -30,7 +30,8 @@
 (defmethod initialize-instance :after ((appender appender) &rest initargs)
   (declare (ignore initargs))
   (with-slots (layout name) appender
-    (setf layout (make-instance 'simple-layout))
+    (when (or (not (slot-boundp appender 'layout)) (null layout))
+      (setf layout (make-instance 'simple-layout)))
     (when (null name)
       (setf name (type-of appender)))))
 
