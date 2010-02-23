@@ -1,0 +1,15 @@
+Source: log4cl
+Section: devel 
+Priority: optional
+Maintainer: Nicolas Lamirault <lam@tuxfamily.org>
+Standards-Version: 3.5.9.0
+Build-Depends-Indep: debhelper (>= 4.0.0)
+
+Package: log4cl
+Architecture: i386
+Depends: common-lisp-controller (>= 3.37) 
+Description: Common Lisp utility to logging 
+ log4cl is a Common Lisp utility to logging. log4cl can use Syslog 
+ database, html file, a file or console to print message
+
+

@@ -1,0 +1,11 @@
+log4cl (0.2) unstable; urgency=low
+
+  * Add database, html and roll-over appender
+
+ -- Nicolas Lamirault <lam@tuxfamily.org>  Fri, 31 Oct 2003 18:50:33 +0100
+
+log4cl (0.1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Nicolas Lamirault <lam@tuxfamily.org>  Wed, 15 Oct 2003 00:21:05 +0200

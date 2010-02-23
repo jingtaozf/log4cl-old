@@ -1,0 +1,9 @@
+The Debian Package Log4cl
+--------------------------
+
+This is the Log4cl Common Lisp system packaged for Debian.
+
+Anonymous CVS for this code is available at:
+:pserver:anonymous@common-lisp.net:/project/log4cl/cvsroot
+
+Nicolas Lamirault <lam@tuxfamily.org>, Mon Feb 16 22:07:55 CET 2004

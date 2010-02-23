@@ -1,0 +1,6 @@
+Log4cl is a logging library for Common Lisp written by Nicolas
+Lamirault.
+It is based on Log4j (http://logging.apache.org/log4j/docs/index.html)
+Log4cl's home is http://www.common-lisp.net/project/log4cl/.
+
+
